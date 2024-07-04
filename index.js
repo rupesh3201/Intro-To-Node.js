@@ -2,3 +2,4 @@ const a = 10;
 const b = 10;
 const sum = a + b;
 console.log(`Sum:${sum}`);
+// in node js the its does not required any script body ony node logi will retrun 
