@@ -9,4 +9,4 @@ else
 }
 
 
-    
+// type node to open node js terminal
