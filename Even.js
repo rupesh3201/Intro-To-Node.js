@@ -1,8 +1,7 @@
-for(num=2;num<=10;num++)
+for(num=2;num<=10;num+=2)
 {
-    if(num%2==0)
-    {
-        console.log(num)
-    }
+
+    console.log(num)
+
     
 }
