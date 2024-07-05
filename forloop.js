@@ -1,1 +1,1 @@
-for
+for(num=1
