@@ -1,1 +1,2 @@
-for(num=1
+for(num=1;num<=10
+    
