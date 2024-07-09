@@ -1,6 +1,7 @@
-let i = 0;
-while(i<10)//condtion
+let i = 1;
+while(i<=10)//condtion
 {
-    console.log(Math.random());
+    console.log(i);
+    i++;
 }
 //this loop goes in infinite loop causes condtion won't get false
