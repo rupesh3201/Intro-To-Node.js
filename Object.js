@@ -9,7 +9,5 @@ const User_details =
         city :"pune",
         dist :"Pune",
         state:"Maharashtra"
- 
-      
-   
+    } 
         
