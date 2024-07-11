@@ -10,7 +10,7 @@ const User_details =
         dist :"Pune",
         state:"Maharashtra"
     } ,
-    Friends : ["Ganesh", "Pankaj"] 
+    Friends : ["Ganesh", "Pankaj"] //array
         
 
 }
