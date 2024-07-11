@@ -4,12 +4,13 @@ const User_details =
     Name: "Rupesh", //string
     Age: 21, //Number
     Mo_n: 9021976854,
-    Adress :  // Array
+    Adress :  // We can store object itself
     {
         city :"pune",
         dist :"Pune",
         state:"Maharashtra"
-    } 
+    } ,
+    Friends : ["Ganesh", "Pankaj"] 
         
 
 }
