@@ -13,5 +13,5 @@ const User_details =
         
 
 }
-console.log(User_details);
+console.log(User_details);//output
    
