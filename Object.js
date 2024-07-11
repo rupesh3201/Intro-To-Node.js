@@ -11,3 +11,7 @@ const User_details =
         state:"Maharashtra"
     } 
         
+
+}
+console.log(User_details);
+   
