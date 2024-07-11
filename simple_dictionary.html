@@ -1,140 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title> Defination Dictionary</title>
     <style>
-    .body
-    {
-        margin: 0px;
-        padding: 0px;
-    }
-    .heading_continer{
+        .body {
+            margin: 0px;
+            padding: 0px;
+        }
 
-    }
-    .Heading
-    {
-        
-        margin: 0px;
-        padding: 10px;
-        text-align: center;
-        font-size: 40px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        align-self: center;
-       background-color: rgb(81, 78, 78);
-       color: aliceblue;
-       position: relative;
-    }
-    .Logo
-    {
-        position: absolute;
-        height: 40px;
-        align-self: center;
-        margin-top:5px;
-        margin-left: 20px;   
-    }
-    .Input_ccontainer
-    {
-        margin-top: 20px;
-        background-color: bisque;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 1000px;
-        margin-left: 300px;
-        border-radius: 30px;
-        box-shadow: 0px  0px 1px 0px  rgb(59, 59, 60) ;
-        
-        
+        .heading_continer {}
 
-    }
-    .input
-    {
-        height: 30px;
-        width: 800px;
-        border: none;
-        border-radius: 10px;
-       font-weight: 500;
-       box-shadow: 0px  0px 2px 1px  rgb(55, 76, 170) ;
-    
-        
-    }
-    .input:hover
-    {
-        height: 30px;
-        width: 800px;
-        border: none;
-        border-radius: 30px;
-       font-weight: 500;
-    
-        
-    }
-    .search{
-        margin-left: 20px;
-        height: 40px;
-        cursor: pointer;
-    }
-    .search:hover{
-        margin-left: 20px;
-        height: 50px;
-        cursor: pointer;
-    }
-    .result
-    {
-        margin-top: 30px;
-        background-color:rgb(238, 232, 232);
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 1300px;
-        margin-left: 150px;
-        border-radius: 30px;
-        box-shadow: 0px  0px 1px 1px  rgb(91, 89, 89) ;
-    }
-    .output
-    {
-        font-size: 20px;
-        font-weight: bold;
-        position: absolute;
-        margin-top: -380px;
-        margin-left: -900px;
+        .Heading {
 
-    }
-    .backgroundimg
-    {
-      height: 90px;
-      margin-top: 600px;
-    }
+            margin: 0px;
+            padding: 10px;
+            text-align: center;
+            font-size: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            align-self: center;
+            background-color: rgb(81, 78, 78);
+            color: aliceblue;
+            position: relative;
+        }
 
+        .Logo {
+            position: absolute;
+            height: 40px;
+            align-self: center;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+
+        .Input_ccontainer {
+            margin-top: 20px;
+            background-color: bisque;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1000px;
+            margin-left: 300px;
+            border-radius: 30px;
+            box-shadow: 0px 0px 1px 0px rgb(59, 59, 60);
+
+
+
+        }
+
+        .input {
+            height: 30px;
+            width: 800px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 500;
+            box-shadow: 0px 0px 2px 1px rgb(55, 76, 170);
+
+
+        }
+
+        .input:hover {
+            height: 30px;
+            width: 800px;
+            border: none;
+            border-radius: 30px;
+            font-weight: 500;
+
+
+        }
+
+        .search {
+            margin-left: 20px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        .search:hover {
+            margin-left: 20px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        .result {
+            margin-top: 30px;
+            background-color: rgb(238, 232, 232);
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1300px;
+            margin-left: 150px;
+            border-radius: 30px;
+            box-shadow: 0px 0px 1px 1px rgb(91, 89, 89);
+        }
+
+        .output {
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            margin-top: -380px;
+            margin-left: -900px;
+
+        }
+
+        .backgroundimg {
+            height: 90px;
+            margin-top: 600px;
+        }
     </style>
 </head>
+
 <body class="body">
     <div class="heading_continer">
-    <h1 class="Heading"> Defination Dictionary <img class="Logo" src="./book.png" alt=""></h1>
-</div>
-<div class="Input_ccontainer">
-  <input type="text" class="input" id="input">
-  <img src="./search.png" class="search" onclick="Search()" >
-</div>
-<div class="result">
-    <p class="output" id="output">
-        Hellow
+        <h1 class="Heading"> Defination Dictionary <img class="Logo" src="./book.png" alt=""></h1>
+    </div>
+    <div class="Input_ccontainer">
+        <input type="text" class="input" id="input">
+        <img src="./search.png" class="search" onclick="Search()">
+    </div>
+    <div class="result">
+        <p class="output" id="output">
+            Hellow
 
-    </p>
-    <img src="./reading-book.png" class="backgroundimg">
-</div>
-<script>
-    function Search()
-    {
-        const input_Element = document.getElementById("input");
-        const Result_Element = document.getElementById("output");
-
-
+        </p>
+        <img src="./reading-book.png" class="backgroundimg">
+    </div>
+    <script>
+        const Dictionary =
+        {
+            
 
     }
 
-</script>
-    
+
+        function Search() {
+            const input_Element = document.getElementById("input");
+            const Result_Element = document.getElementById("output");
+
+
+
+        }
+
+    </script>
+
 </body>
+
 </html>
