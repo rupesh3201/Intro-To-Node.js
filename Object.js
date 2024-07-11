@@ -1,6 +1,6 @@
 const User_details =
 {
-    User_id:1,
+    User_id:1, //int
     Name: "Rupesh",
     Age: 21,
     Mo_n: 9021976854,
