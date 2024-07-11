@@ -7,4 +7,7 @@ const User_details =
     Adress : 
     {
         city :"pune",
+        dist :"Pune",
+      
+   
         
