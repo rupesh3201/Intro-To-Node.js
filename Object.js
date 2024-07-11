@@ -4,7 +4,7 @@ const User_details =
     Name: "Rupesh", //string
     Age: 21, //Number
     Mo_n: 9021976854,
-    Adress : 
+    Adress :  // Array
     {
         city :"pune",
         dist :"Pune",
