@@ -10,7 +10,8 @@ const User_details =
         dist :"Pune",
         state:"Maharashtra"
     } ,
-    Friends : ["Ganesh", "Pankaj"] //array
+    Friends : ["Ganesh", "Pankaj"] ,//array
+    "is_varified" : true //Bollean
         
 
 }
