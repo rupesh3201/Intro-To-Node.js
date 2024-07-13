@@ -14,5 +14,6 @@ const User_details = //josh
     "is_varified" : true //Bollean
 }
 console.log(User_details.Age);//output
-
 //first rule to json is too key must in double quete 
+//key
+//And , at  ony in at functio at end
