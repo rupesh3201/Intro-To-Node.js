@@ -5,4 +5,5 @@ const User_details = //josh
     "Age": 21, //Number
     "Mo_n": 9021976854,
     "Adress":  // We can store object itself
-    
+    {
+      
