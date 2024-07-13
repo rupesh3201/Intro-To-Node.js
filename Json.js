@@ -11,6 +11,8 @@ const User_details = //josh
         state:"Maharashtra"
     } ,
     "Friends ": ["Ganesh", "Pankaj"] ,//array
+    "is_varified" : true //Bollean
+
    
 
    
