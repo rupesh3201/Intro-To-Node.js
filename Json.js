@@ -15,4 +15,4 @@ const User_details = //josh
 }
 console.log(User_details.Age);//output
 
-      
+//first rule to json is too key must in double quete 
