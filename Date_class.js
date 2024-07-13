@@ -10,4 +10,5 @@ const mydate = new Date();
     console.log(mydate.getMinutes())//it return Minutes in local time
     console.log(mydate.getSeconds())// its return Seconds
     //all set
+    
 }
