@@ -4,6 +4,7 @@ const mydate = new Date();
     console.log(mydate.toLocaleDateString() ) //it's give local gate 
     console.log(mydate.toLocalString ())// its gives total time
     console.log(mydate.getMonth()+1 );//its give months
+    console.log(mydate.getDay()) //its give day
 
 
 }
