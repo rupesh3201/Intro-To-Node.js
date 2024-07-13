@@ -12,8 +12,7 @@ const User_details = //josh
     } ,
     "Friends ": ["Ganesh", "Pankaj"] ,//array
     "is_varified" : true //Bollean
+}
+console.log(User_details.Age);//output
 
-   
-
-   
       
