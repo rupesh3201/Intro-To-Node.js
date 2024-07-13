@@ -6,7 +6,7 @@ const mydate = new Date();
     console.log(mydate.getMonth()+1 );//its give months
     const days = ["sunday" , "monday" , "tusday","wensday","thrusday","fryday","saturday"];
     console.log(mydate.getDay()) //its give day 
-    
+    console.log(mydate.getHours())//it return houres in local time
 
 
 }
