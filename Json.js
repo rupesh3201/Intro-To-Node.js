@@ -9,6 +9,8 @@ const User_details = //josh
         city :"pune",
         dist :"Pune",
         state:"Maharashtra"
+    } ,
+    "Friends ": ["Ganesh", "Pankaj"] ,//array
    
 
    
